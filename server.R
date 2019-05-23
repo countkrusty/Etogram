@@ -68,13 +68,12 @@ shinyServer(function(input, output, session) {
 
     
     ##Plot the data using ggplot
-    PLOT <- reactive({
-      
+
       print(
         
         #somehow the interactive heigth setting is now muted within the expression
-        ggplot(scorSelecter(), aes(x = scorSelecter()[,1], y = "", fill = as.factor(scorSelecter()[2:ncol(scor1())])) ) +
-         {if(ncol(scor1()) >= 2)geom_tile(aes(x = scorSelecter()[,1], y = 0, fill = as.factor(scorSelecter()[,2])), scorSelecter(), width = 0.2, height = input$width, size = 2)} + 
+        ggplot(scorSelecter(), aes(x = scorSelecter()[,1], y = "", fill = as.factor(scorSelecter()[2:ncol(scor1())]))  ) +
+         {if(ncol(scor1()) >= 1)geom_tile(aes(x = scorSelecter()[,1], y = 0, fill = as.factor(scorSelecter()[,2])), scorSelecter(), width = 0.2, height = input$width, size = 2)} + 
           {if(ncol(scor1()) >= 3)geom_tile(aes(x = scorSelecter()[,1], y = 0.125, fill = as.factor(scorSelecter()[,3])), scorSelecter(), width = 0.2, height = 0.02, size = 2)} +
           {if(ncol(scor1()) >= 4)geom_tile(aes(x = scorSelecter()[,1], y = -0.125, fill = as.factor(scorSelecter()[,4])), scorSelecter(), width = 0.2, height = 0.02, size = 2)} +
           {if(ncol(scor1()) >= 5)geom_tile(aes(x = scorSelecter()[,1], y = -0.145, fill = as.factor(scorSelecter()[,5])), scorSelecter(), width = 0.2, height = 0.02, size = 2)} +
@@ -92,12 +91,7 @@ shinyServer(function(input, output, session) {
           theme(panel.border = element_blank(),
                 axis.line = element_line(colour = "black"))
       )
-      
-      
-    })
-    
-    PLOT()
-    
+})
     ##To save the finished
     output$downloadData <- downloadHandler(
                             filename = function() {
@@ -115,6 +109,6 @@ shinyServer(function(input, output, session) {
     
     
     
-  })
+  
   
 })  
