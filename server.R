@@ -13,17 +13,17 @@ shinyServer(function(input, output, session) {
               
               if (grepl(".csv", input$file$datapath, fixed = TRUE)){
                 read.csv2(input$file$datapath)
-              }
-              else if (grepl(".xlsx", input$file$datapath, fixed = TRUE)){
+              } else{
                 data.frame(read_xlsx(input$file$datapath))
               }
+              
              
           })
   
   
   ##Prepare a vector to be passed to the groupCheckBox
   checkC <- reactive({unique(na.omit(as.vector(as.matrix((scor1()[2:ncol(scor1())])))))})
-  #checkC <- reactive({gsub(" ", "_", checkC())}) ##erase all blank spaces, so variables can be handled internally ****NEW****
+ 
   
   
   ##Define the groupCheckBox
@@ -50,7 +50,7 @@ shinyServer(function(input, output, session) {
     lapply(seq_along(lev), function(i) {
       colourInput(inputId = paste0("colour", lev[i]),
                 label = paste0("Choose colour for ", lev[i]),
-                value = ##4166F5
+                value = #4166F5
                # palette = "limited",
               #  allowedCols = plasma(256)
               
@@ -105,10 +105,10 @@ shinyServer(function(input, output, session) {
                             filename = function() {
                                             if (grepl(".csv", input$file$datapath, fixed = TRUE)){
                                               paste(gsub(".csv*", "", input$file), 'pdf', sep='.') 
-                                            }
-                                            else if (grepl(".xlsx", input$file$datapath, fixed = TRUE)){
+                                            } else{
                                               paste(gsub(".xlsx.*", "", input$file), 'pdf', sep='.') 
                                             }
+                                            
                                          },
                             content = function(file) {
                                         ggsave(file, plot = PLOT(), device = "pdf", width=10, height=10, unit="in", dpi=600)
