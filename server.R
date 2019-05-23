@@ -34,12 +34,12 @@ shinyServer(function(input, output, session) {
   
   ##Create the altered data frame that responds to the group
   ##checkBox vector
-  scorSelecter <- reactive({data.frame(lapply(scor1(), function(x) replace(x, (x %in% input$optionz), NA)))})
+  scorSelecter <- reactive({data.frame(lapply(scor1(), function(x) replace(x, (x %in% input$optionz), NA)))}) #by replacing with 'NA' it will be displayed in the legend as a level!!
   
   ##The function can't handle blank spaces, that's why I remove them for this bit of the program
   output$selectize <- renderUI({
     selectizeInput("select","Select:", 
-                   choices = gsub(" ", "_", as.list(levels(as.factor(unique(na.omit(as.character(as.vector(as.matrix((scorSelecter()[2:ncol(scor1())])))))))))), ##here lies the bug of not recognising empty spaces
+                   choices = gsub(" ", "_", as.list(levels(as.factor(unique(na.omit(as.character(as.vector(as.matrix((scorSelecter()[2:ncol(scor1())])))))))))), 
                    multiple = TRUE)
     })
 
@@ -52,9 +52,7 @@ shinyServer(function(input, output, session) {
                 label = paste0("Choose colour for ", lev[i]),
                 value = '4166F5',
                 allowTransparent = TRUE
-              
               #  allowedCols = plasma(256)
-              
       )
     })
   })
@@ -81,16 +79,15 @@ shinyServer(function(input, output, session) {
           {if(ncol(scor1()) >= 4)geom_tile(aes(x = scorSelecter()[,1], y = -0.125, fill = as.factor(scorSelecter()[,4])), scorSelecter(), width = 0.2, height = 0.02, size = 2)} +
           {if(ncol(scor1()) >= 5)geom_tile(aes(x = scorSelecter()[,1], y = -0.145, fill = as.factor(scorSelecter()[,5])), scorSelecter(), width = 0.2, height = 0.02, size = 2)} +
 
-          scale_fill_manual(values = colours) +
+          scale_fill_manual(values = colours, na.translate = FALSE) +
           
           ## Set background, name axes, name legend
           
           labs(title = "Scored Behaviour ", x = "Time(s)", y = NULL,
                fill = "Considered Behaviour") +
           scale_y_continuous(breaks = NULL, labels = NULL) +
+          
           ##Background white, I want lines along the axes
-          
-          
           theme_bw() +
           theme(panel.border = element_blank(),
                 axis.line = element_line(colour = "black"))
