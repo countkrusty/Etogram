@@ -3,4 +3,5 @@ A list of bugs:
 1) When loading data with only one data column, the interactive width slider
 	is unresponsive
 2) When only plotting data from one column, 'NA' is listed in the Considered 
-	Behaviour legend
+	Behaviour legend, unless all values from that column are included
+	in the plot
