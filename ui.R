@@ -31,6 +31,9 @@ shinyUI(
     ),
     
     
-    mainPanel(plotOutput("graph"), height = "600px", quoted = TRUE)
+    mainPanel(
+      style = "position:sticky;top: 70px;
+  right: 15px;",
+      plotOutput("graph"), height = "600px", quoted = TRUE)
   )
 )
