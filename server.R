@@ -46,12 +46,13 @@ shinyServer(function(input, output, session) {
   output$colourSelecter <-  renderUI ({
     lev <- sort(input$select)
    
-###Default is #FFFFFF, even though I set value differently
+#I set the default to ultramarine
     lapply(seq_along(lev), function(i) {
       colourInput(inputId = paste0("colour", lev[i]),
                 label = paste0("Choose colour for ", lev[i]),
-                value = #4166F5
-               # palette = "limited",
+                value = '4166F5',
+                allowTransparent = TRUE
+              
               #  allowedCols = plasma(256)
               
       )
