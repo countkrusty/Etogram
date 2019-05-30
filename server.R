@@ -12,7 +12,7 @@ shinyServer(function(input, output, session) {
     req(input$file)
     
     if (grepl(".csv", input$file$datapath, fixed = TRUE)){
-      read.csv2(input$file$datapath)
+      read.csv(input$file$datapath)
     }
     else if (grepl(".xlsx", input$file$datapath, fixed = TRUE)){
       data.frame(read_xlsx(input$file$datapath))
