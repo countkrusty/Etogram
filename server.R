@@ -35,7 +35,12 @@ shinyServer(function(input, output, session) {
   
   ##Create the altered data frame that responds to the group
   ##checkBox vector
-  scorSelecter <- reactive({data.frame(lapply(scor1(), function(x) replace(x, (x %in% input$optionz), NA)))})
+  scorSelecter <- reactive({
+                  
+                    validate(
+                      need(input$optionz != checkC(), "Please select a behaviour to be included")
+                    )
+                    data.frame(lapply(scor1(), function(x) replace(x, (x %in% input$optionz), NA)))})
   
   ##The function can't handle blank spaces, that's why I remove them for this bit of the program
   output$selectize <- renderUI({
@@ -45,6 +50,7 @@ shinyServer(function(input, output, session) {
   })
   
   output$colourSelecter <-  renderUI ({
+    
     lev <- sort(input$select)
     
     ###Default is selected colour blind-friendly, randomly picked
@@ -65,66 +71,70 @@ shinyServer(function(input, output, session) {
     colours <-  paste0("c(", paste0("input$colour", sort(input$select), sep = " ", collapse = ", "), ")")
     colours <- eval(parse(text = colours)) ##Try to understand non-standard evaluation!
     
-    req(length(colours) == length(input$select)) #why?
-    
+    validate(
+      need((length(checkC()) - length(input$optionz))  == length(input$select), "Please provide a colour for every selected behaviour")
+    )
     
     ##Plot the data using ggplot
-    
-    
+
+      
     PLOT <- ggplot(scorSelecter(), aes(x = scorSelecter()[,1], y = "", fill = as.factor(scorSelecter()[2:ncol(scor1())])) ) +
-      
-    {if(ncol(scor1()) == 2)ylim(-0.2005, 0.2005)} +
-      
-    {if(ncol(scor1()) >= 2)geom_tile(aes(x = scorSelecter()[,1], y = 0, fill = as.factor(scorSelecter()[,2])), scorSelecter(), width = 0.2, height = input$width, size = 2)} + 
-    {if(ncol(scor1()) >= 3)geom_tile(aes(x = scorSelecter()[,1], y = 0.125, fill = as.factor(scorSelecter()[,3])), scorSelecter(), width = 0.2, height = 0.02, size = 2)} +
-    {if(ncol(scor1()) >= 4)geom_tile(aes(x = scorSelecter()[,1], y = -0.125, fill = as.factor(scorSelecter()[,4])), scorSelecter(), width = 0.2, height = 0.02, size = 2)} +
-    {if(ncol(scor1()) >= 5)geom_tile(aes(x = scorSelecter()[,1], y = -0.145, fill = as.factor(scorSelecter()[,5])), scorSelecter(), width = 0.2, height = 0.02, size = 2)} +
-      
-      scale_fill_manual(values = colours, na.translate = FALSE) +
-      
-      ## Set background, name axes, name legend
-      
-      labs(title = "Scored Behaviour ", x = "Time(s)", y = NULL,
-           fill = "Considered Behaviour") +
-      
-      ##Background white, I want lines along the axes
-      
-      
-      
-      theme(panel.border = element_blank(),
-            axis.line.y = element_blank(), 
-            axis.ticks.y = element_blank(),
-            axis.text.y = element_blank(), 
-            panel.grid = element_blank(),
-            panel.grid.minor.x = element_line(size = 0.05),
-            panel.grid.major.x = element_line(size = 0.05),
-            panel.background = element_blank(),
-            axis.line.x = element_line(colour = "black"))
+              
+            {if(ncol(scor1()) == 2)ylim(-0.2005, 0.2005)} +
+           
+            {if(ncol(scor1()) >= 2)geom_tile(aes(x = scorSelecter()[,1], y = 0, fill = as.factor(scorSelecter()[,2])), scorSelecter(), width = 0.2, height = input$width, size = 2)} + 
+            {if(ncol(scor1()) >= 3)geom_tile(aes(x = scorSelecter()[,1], y = 0.125, fill = as.factor(scorSelecter()[,3])), scorSelecter(), width = 0.2, height = 0.02, size = 2)} +
+            {if(ncol(scor1()) >= 4)geom_tile(aes(x = scorSelecter()[,1], y = -0.125, fill = as.factor(scorSelecter()[,4])), scorSelecter(), width = 0.2, height = 0.02, size = 2)} +
+            {if(ncol(scor1()) >= 5)geom_tile(aes(x = scorSelecter()[,1], y = -0.145, fill = as.factor(scorSelecter()[,5])), scorSelecter(), width = 0.2, height = 0.02, size = 2)} +
+              
+              scale_fill_manual(values = colours, na.translate = FALSE) +
+              
+              ## Set background, name axes, name legend
+              
+              labs(title = "Scored Behaviour ", x = "Time(s)", y = NULL,
+                   fill = "Considered Behaviour") +
+              
+              ##Background white, I want lines along the axes
+              
+              
+              
+              theme(panel.border = element_blank(),
+                    axis.line.y = element_blank(), 
+                    axis.ticks.y = element_blank(),
+                    axis.text.y = element_blank(), 
+                    panel.grid = element_blank(),
+                    panel.grid.minor.x = element_line(size = 0.05),
+                    panel.grid.major.x = element_line(size = 0.05),
+                    panel.background = element_blank(),
+                    axis.line.x = element_line(colour = "black"))
+          
+          
+          PLOT
+    })
     
     
-    PLOT
+    
+    ##To save the finished
+    output$downloadData <- downloadHandler(
+      filename = function() {
+        if (grepl(".csv", input$file$datapath, fixed = TRUE)){
+          paste(gsub(".csv*", "", input$file), 'pdf', sep='.') 
+        }
+        else if (grepl(".xlsx", input$file$datapath, fixed = TRUE)){
+          paste(gsub(".xlsx.*", "", input$file), 'pdf', sep='.') 
+        }
+      },
+      content = function(file) {
+        ggsave(file, device = "pdf", width=10, height=10, unit="in", dpi=600)
+      }
+    )
+    
+    
+    
   })
-  
-  
-  
-  ##To save the finished
-  output$downloadData <- downloadHandler(
-    filename = function() {
-      if (grepl(".csv", input$file$datapath, fixed = TRUE)){
-        paste(gsub(".csv*", "", input$file), 'pdf', sep='.') 
-      }
-      else if (grepl(".xlsx", input$file$datapath, fixed = TRUE)){
-        paste(gsub(".xlsx.*", "", input$file), 'pdf', sep='.') 
-      }
-    },
-    content = function(file) {
-      ggsave(file, device = "pdf", width=10, height=10, unit="in", dpi=600)
-    }
-  )
-  
-  
-  
-})
+
+
+
 
 
 
