@@ -7,7 +7,10 @@ library(colourpicker)
 shinyUI(
   
   
+  
   pageWithSidebar(
+    
+    
     
     headerPanel("Visualise Behaviour"),
     
@@ -33,7 +36,7 @@ shinyUI(
     
     mainPanel(
       style = "position:sticky;top: 70px;
-  right: 15px;",
+      right: 15px;",
       plotOutput("graph"), height = "600px", quoted = TRUE)
   )
-)
+  )
