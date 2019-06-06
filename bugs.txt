@@ -1,7 +1,4 @@
 A list of bugs:
 
-1) When loading data with only one data column, the interactive width slider
-	is unresponsive
-2) When only plotting data from one column, 'NA' is listed in the Considered 
-	Behaviour legend, unless all values from that column are included
-	in the plot
+1) Program is single-threaded
+2) The checkbox works opposite to how the user would expect it
