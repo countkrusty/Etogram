@@ -35,7 +35,12 @@ shinyServer(function(input, output, session) {
   
   ##Create the altered data frame that responds to the group
   ##checkBox vector
-  scorSelecter <- reactive({data.frame(lapply(scor1(), function(x) replace(x, (x %in% input$optionz), NA)))})
+  scorSelecter <- reactive({
+    
+    validate(
+      need(length(input$optionz) != length(checkC()), "By default all behaviours are exclueded. Please select a behaviour to be included")
+    )
+    data.frame(lapply(scor1(), function(x) replace(x, (x %in% input$optionz), NA)))})
   
   ##The function can't handle blank spaces, that's why I remove them for this bit of the program
   output$selectize <- renderUI({
@@ -45,13 +50,14 @@ shinyServer(function(input, output, session) {
   })
   
   output$colourSelecter <-  renderUI ({
+    
     lev <- sort(input$select)
     
     ###Default is selected colour blind-friendly, randomly picked
     lapply(seq_along(lev), function(i) {
       colourInput(inputId = paste0("colour", lev[i]),
                   label = paste0("Choose colour for ", lev[i]),
-                  value = viridis_pal(option = "plasma", begin = runif(1, 0, 1))(i),
+                  value = viridis_pal(option = "plasma", begin = runif(1, 0, 1))(16),
                   allowTransparent = TRUE
                   
       )
@@ -65,8 +71,9 @@ shinyServer(function(input, output, session) {
     colours <-  paste0("c(", paste0("input$colour", sort(input$select), sep = " ", collapse = ", "), ")")
     colours <- eval(parse(text = colours)) ##Try to understand non-standard evaluation!
     
-    req(length(colours) == length(input$select)) #why?
-    
+    validate(
+      need((length(checkC()) - length(input$optionz))  == length(input$select), "Please provide a colour for every selected behaviour")
+    )
     
     ##Plot the data using ggplot
     
@@ -125,6 +132,5 @@ shinyServer(function(input, output, session) {
   
   
 })
-
 
 
