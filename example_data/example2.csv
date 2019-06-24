@@ -1,0 +1,3001 @@
+0	Free Locomotion
+0,2	Free Locomotion
+0,4	Free Locomotion
+0,6	Free Locomotion
+0,8	Free Locomotion
+1	Free Locomotion
+1,2	Free Locomotion
+1,4	Free Locomotion
+1,6	Free Locomotion
+1,8	Free Locomotion
+2	Free Locomotion
+2,2	Free Locomotion
+2,4	Free Locomotion
+2,6	Free Locomotion
+2,8	Free Locomotion
+3	Free Locomotion
+3,2	Free Locomotion
+3,4	Free Locomotion
+3,6	Free Locomotion
+3,8	Free Locomotion
+4	Free Locomotion
+4,2	Free Locomotion
+4,4	Free Locomotion
+4,6	No Movement
+4,8	No Movement
+5	No Movement
+5,2	No Movement
+5,4	No Movement
+5,6	No Movement
+5,8	No Movement
+6	No Movement
+6,2	Attack
+6,4	Attack
+6,6	Attack
+6,8	Attack
+7	Attack
+7,2	Attack
+7,4	Attack
+7,6	Attack
+7,8	Attack
+8	Attack
+8,2	Attack
+8,4	Attack
+8,6	Attack
+8,8	Attack
+9	Attack
+9,2	Close Investigation
+9,4	Close Investigation
+9,6	Close Investigation
+9,8	Close Investigation
+10	Close Investigation
+10,2	Close Investigation
+10,4	Close Investigation
+10,6	Close Investigation
+10,8	Close Investigation
+11	Close Investigation
+11,2	Close Investigation
+11,4	Close Investigation
+11,6	Close Investigation
+11,8	Close Investigation
+12	Close Investigation
+12,2	Close Investigation
+12,4	Close Investigation
+12,6	Close Investigation
+12,8	Close Investigation
+13	Close Investigation
+13,2	Close Investigation
+13,4	Close Investigation
+13,6	Close Investigation
+13,8	Close Investigation
+14	Close Investigation
+14,2	Close Investigation
+14,4	Close Investigation
+14,6	Close Investigation
+14,8	Close Investigation
+15	Close Investigation
+15,2	AG Sniff
+15,4	AG Sniff
+15,6	AG Sniff
+15,8	AG Sniff
+16	AG Sniff
+16,2	AG Sniff
+16,4	AG Sniff
+16,6	AG Sniff
+16,8	AG Sniff
+17	AG Sniff
+17,2	AG Sniff
+17,4	AG Sniff
+17,6	AG Sniff
+17,8	AG Sniff
+18	AG Sniff
+18,2	AG Sniff
+18,4	AG Sniff
+18,6	AG Sniff
+18,8	AG Sniff
+19	AG Sniff
+19,2	AG Sniff
+19,4	AG Sniff
+19,6	AG Sniff
+19,8	AG Sniff
+20	AG Sniff
+20,2	No Movement
+20,4	No Movement
+20,6	No Movement
+20,8	No Movement
+21	No Movement
+21,2	No Movement
+21,4	No Movement
+21,6	No Movement
+21,8	No Movement
+22	No Movement
+22,2	No Movement
+22,4	No Movement
+22,6	No Movement
+22,8	No Movement
+23	No Movement
+23,2	No Movement
+23,4	No Movement
+23,6	No Movement
+23,8	No Movement
+24	No Movement
+24,2	Free Locomotion
+24,4	Free Locomotion
+24,6	Free Locomotion
+24,8	Free Locomotion
+25	Free Locomotion
+25,2	Free Locomotion
+25,4	Free Locomotion
+25,6	Free Locomotion
+25,8	Free Locomotion
+26	Free Locomotion
+26,2	Free Locomotion
+26,4	Free Locomotion
+26,6	Free Locomotion
+26,8	Free Locomotion
+27	Free Locomotion
+27,2	Free Locomotion
+27,4	Free Locomotion
+27,6	Free Locomotion
+27,8	Free Locomotion
+28	Free Locomotion
+28,2	Free Locomotion
+28,4	Free Locomotion
+28,6	Free Locomotion
+28,8	Free Locomotion
+29	Free Locomotion
+29,2	Free Locomotion
+29,4	Free Locomotion
+29,6	Free Locomotion
+29,8	Free Locomotion
+30	Free Locomotion
+30,2	No Movement
+30,4	No Movement
+30,6	No Movement
+30,8	No Movement
+31	No Movement
+31,2	No Movement
+31,4	No Movement
+31,6	No Movement
+31,8	Attack
+32	Attack
+32,2	Attack
+32,4	Attack
+32,6	Attack
+32,8	Attack
+33	Attack
+33,2	Attack
+33,4	Attack
+33,6	Attack
+33,8	Attack
+34	Attack
+34,2	Attack
+34,4	Attack
+34,6	Attack
+34,8	Close Investigation
+35	Close Investigation
+35,2	Close Investigation
+35,4	Close Investigation
+35,6	Close Investigation
+35,8	Close Investigation
+36	Close Investigation
+36,2	Close Investigation
+36,4	Close Investigation
+36,6	Close Investigation
+36,8	Close Investigation
+37	Close Investigation
+37,2	Close Investigation
+37,4	Close Investigation
+37,6	Close Investigation
+37,8	Close Investigation
+38	Close Investigation
+38,2	Close Investigation
+38,4	Close Investigation
+38,6	Close Investigation
+38,8	Close Investigation
+39	Close Investigation
+39,2	Close Investigation
+39,4	Close Investigation
+39,6	Close Investigation
+39,8	Close Investigation
+40	Close Investigation
+40,2	Close Investigation
+40,4	Close Investigation
+40,6	Close Investigation
+40,8	AG Sniff
+41	AG Sniff
+41,2	AG Sniff
+41,4	AG Sniff
+41,6	AG Sniff
+41,8	AG Sniff
+42	AG Sniff
+42,2	AG Sniff
+42,4	AG Sniff
+42,6	AG Sniff
+42,8	AG Sniff
+43	AG Sniff
+43,2	AG Sniff
+43,4	AG Sniff
+43,6	AG Sniff
+43,8	AG Sniff
+44	AG Sniff
+44,2	AG Sniff
+44,4	AG Sniff
+44,6	AG Sniff
+44,8	AG Sniff
+45	AG Sniff
+45,2	AG Sniff
+45,4	AG Sniff
+45,6	AG Sniff
+45,8	No Movement
+46	No Movement
+46,2	No Movement
+46,4	No Movement
+46,6	No Movement
+46,8	No Movement
+47	No Movement
+47,2	No Movement
+47,4	No Movement
+47,6	No Movement
+47,8	No Movement
+48	No Movement
+48,2	No Movement
+48,4	No Movement
+48,6	No Movement
+48,8	No Movement
+49	No Movement
+49,2	No Movement
+49,4	No Movement
+49,6	No Movement
+49,8	Free Locomotion
+50	Free Locomotion
+50,2	Free Locomotion
+50,4	Free Locomotion
+50,6	Free Locomotion
+50,8	Free Locomotion
+51	Free Locomotion
+51,2	Free Locomotion
+51,4	Free Locomotion
+51,6	Free Locomotion
+51,8	Free Locomotion
+52	Free Locomotion
+52,2	Free Locomotion
+52,4	Free Locomotion
+52,6	Free Locomotion
+52,8	Free Locomotion
+53	Free Locomotion
+53,2	Free Locomotion
+53,4	Free Locomotion
+53,6	Free Locomotion
+53,8	Free Locomotion
+54	Free Locomotion
+54,2	Free Locomotion
+54,4	Free Locomotion
+54,6	Free Locomotion
+54,8	Free Locomotion
+55	Free Locomotion
+55,2	Free Locomotion
+55,4	Free Locomotion
+55,6	Free Locomotion
+55,8	No Movement
+56	No Movement
+56,2	No Movement
+56,4	No Movement
+56,6	No Movement
+56,8	No Movement
+57	No Movement
+57,2	No Movement
+57,4	Attack
+57,6	Attack
+57,8	Attack
+58	Attack
+58,2	Attack
+58,4	Attack
+58,6	Attack
+58,8	Attack
+59	Attack
+59,2	Attack
+59,4	Attack
+59,6	Attack
+59,8	Attack
+60	Attack
+60,2	Attack
+60,4	Close Investigation
+60,6	Close Investigation
+60,8	Close Investigation
+61	Close Investigation
+61,2	Close Investigation
+61,4	Close Investigation
+61,6	Close Investigation
+61,8	Close Investigation
+62	Close Investigation
+62,2	Close Investigation
+62,4	Close Investigation
+62,6	Close Investigation
+62,8	Close Investigation
+63	Close Investigation
+63,2	Close Investigation
+63,4	Close Investigation
+63,6	Close Investigation
+63,8	Close Investigation
+64	Close Investigation
+64,2	Close Investigation
+64,4	Close Investigation
+64,6	Close Investigation
+64,8	Close Investigation
+65	Close Investigation
+65,2	Close Investigation
+65,4	Close Investigation
+65,6	Close Investigation
+65,8	Close Investigation
+66	Close Investigation
+66,2	Close Investigation
+66,4	AG Sniff
+66,6	AG Sniff
+66,8	AG Sniff
+67	AG Sniff
+67,2	AG Sniff
+67,4	AG Sniff
+67,6	AG Sniff
+67,8	AG Sniff
+68	AG Sniff
+68,2	AG Sniff
+68,4	AG Sniff
+68,6	AG Sniff
+68,8	AG Sniff
+69	AG Sniff
+69,2	AG Sniff
+69,4	AG Sniff
+69,6	AG Sniff
+69,8	AG Sniff
+70	AG Sniff
+70,2	AG Sniff
+70,4	AG Sniff
+70,6	AG Sniff
+70,8	AG Sniff
+71	AG Sniff
+71,2	AG Sniff
+71,4	No Movement
+71,6	No Movement
+71,8	No Movement
+72	No Movement
+72,2	No Movement
+72,4	No Movement
+72,6	No Movement
+72,8	No Movement
+73	No Movement
+73,2	No Movement
+73,4	No Movement
+73,6	No Movement
+73,8	No Movement
+74	No Movement
+74,2	No Movement
+74,4	No Movement
+74,6	No Movement
+74,8	No Movement
+75	No Movement
+75,2	No Movement
+75,4	Free Locomotion
+75,6	Free Locomotion
+75,8	Free Locomotion
+76	Free Locomotion
+76,2	Free Locomotion
+76,4	Free Locomotion
+76,6	Free Locomotion
+76,8	Free Locomotion
+77	Free Locomotion
+77,2	Free Locomotion
+77,4	Free Locomotion
+77,6	Free Locomotion
+77,8	Free Locomotion
+78	Free Locomotion
+78,2	Free Locomotion
+78,4	Free Locomotion
+78,6	Free Locomotion
+78,8	Free Locomotion
+79	Free Locomotion
+79,2	Free Locomotion
+79,4	Free Locomotion
+79,6	Free Locomotion
+79,8	Free Locomotion
+80	Free Locomotion
+80,2	Free Locomotion
+80,4	Free Locomotion
+80,6	Free Locomotion
+80,8	Free Locomotion
+81	Free Locomotion
+81,2	Free Locomotion
+81,4	No Movement
+81,6	No Movement
+81,8	No Movement
+82	No Movement
+82,2	No Movement
+82,4	No Movement
+82,6	No Movement
+82,8	No Movement
+83	Attack
+83,2	Attack
+83,4	Attack
+83,6	Attack
+83,8	Attack
+84	Attack
+84,2	Attack
+84,4	Attack
+84,6	Attack
+84,8	Attack
+85	Attack
+85,2	Attack
+85,4	Attack
+85,6	Attack
+85,8	Attack
+86	Close Investigation
+86,2	Close Investigation
+86,4	Close Investigation
+86,6	Close Investigation
+86,8	Close Investigation
+87	Close Investigation
+87,2	Close Investigation
+87,4	Close Investigation
+87,6	Close Investigation
+87,8	Close Investigation
+88	Close Investigation
+88,2	Close Investigation
+88,4	Close Investigation
+88,6	Close Investigation
+88,8	Close Investigation
+89	Close Investigation
+89,2	Close Investigation
+89,4	Close Investigation
+89,6	Close Investigation
+89,8	Close Investigation
+90	Close Investigation
+90,2	Close Investigation
+90,4	Close Investigation
+90,6	Close Investigation
+90,8	Close Investigation
+91	Close Investigation
+91,2	Close Investigation
+91,4	Close Investigation
+91,6	Close Investigation
+91,8	Close Investigation
+92	AG Sniff
+92,2	AG Sniff
+92,4	AG Sniff
+92,6	AG Sniff
+92,8	AG Sniff
+93	AG Sniff
+93,2	AG Sniff
+93,4	AG Sniff
+93,6	AG Sniff
+93,8	AG Sniff
+94	AG Sniff
+94,2	AG Sniff
+94,4	AG Sniff
+94,6	AG Sniff
+94,8	AG Sniff
+95	AG Sniff
+95,2	AG Sniff
+95,4	AG Sniff
+95,6	AG Sniff
+95,8	AG Sniff
+96	AG Sniff
+96,2	AG Sniff
+96,4	AG Sniff
+96,6	AG Sniff
+96,8	AG Sniff
+97	No Movement
+97,2	No Movement
+97,4	No Movement
+97,6	No Movement
+97,8	No Movement
+98	No Movement
+98,2	No Movement
+98,4	No Movement
+98,6	No Movement
+98,8	No Movement
+99	No Movement
+99,2	No Movement
+99,4	No Movement
+99,6	No Movement
+99,8	No Movement
+100	No Movement
+100,2	No Movement
+100,4	No Movement
+100,6	No Movement
+100,8	No Movement
+101	Free Locomotion
+101,2	Free Locomotion
+101,4	Free Locomotion
+101,6	Free Locomotion
+101,8	Free Locomotion
+102	Free Locomotion
+102,2	Free Locomotion
+102,4	Free Locomotion
+102,6	Free Locomotion
+102,8	Free Locomotion
+103	Free Locomotion
+103,2	Free Locomotion
+103,4	Free Locomotion
+103,6	Free Locomotion
+103,8	Free Locomotion
+104	Free Locomotion
+104,2	Free Locomotion
+104,4	Free Locomotion
+104,6	Free Locomotion
+104,8	Free Locomotion
+105	Free Locomotion
+105,2	Free Locomotion
+105,4	Free Locomotion
+105,6	Free Locomotion
+105,8	Free Locomotion
+106	Free Locomotion
+106,2	Free Locomotion
+106,4	Free Locomotion
+106,6	Free Locomotion
+106,8	Free Locomotion
+107	No Movement
+107,2	No Movement
+107,4	No Movement
+107,6	No Movement
+107,8	No Movement
+108	No Movement
+108,2	No Movement
+108,4	No Movement
+108,6	Attack
+108,8	Attack
+109	Attack
+109,2	Attack
+109,4	Attack
+109,6	Attack
+109,8	Attack
+110	Attack
+110,2	Attack
+110,4	Attack
+110,6	Attack
+110,8	Attack
+111	Attack
+111,2	Attack
+111,4	Attack
+111,6	Close Investigation
+111,8	Close Investigation
+112	Close Investigation
+112,2	Close Investigation
+112,4	Close Investigation
+112,6	Close Investigation
+112,8	Close Investigation
+113	Close Investigation
+113,2	Close Investigation
+113,4	Close Investigation
+113,6	Close Investigation
+113,8	Close Investigation
+114	Close Investigation
+114,2	Close Investigation
+114,4	Close Investigation
+114,6	Close Investigation
+114,8	Close Investigation
+115	Close Investigation
+115,2	Close Investigation
+115,4	Close Investigation
+115,6	Close Investigation
+115,8	Close Investigation
+116	Close Investigation
+116,2	Close Investigation
+116,4	Close Investigation
+116,6	Close Investigation
+116,8	Close Investigation
+117	Close Investigation
+117,2	Close Investigation
+117,4	Close Investigation
+117,6	AG Sniff
+117,8	AG Sniff
+118	AG Sniff
+118,2	AG Sniff
+118,4	AG Sniff
+118,6	AG Sniff
+118,8	AG Sniff
+119	AG Sniff
+119,2	AG Sniff
+119,4	AG Sniff
+119,6	AG Sniff
+119,8	AG Sniff
+120	AG Sniff
+120,2	AG Sniff
+120,4	AG Sniff
+120,6	AG Sniff
+120,8	AG Sniff
+121	AG Sniff
+121,2	AG Sniff
+121,4	AG Sniff
+121,6	AG Sniff
+121,8	AG Sniff
+122	AG Sniff
+122,2	AG Sniff
+122,4	AG Sniff
+122,6	No Movement
+122,8	No Movement
+123	No Movement
+123,2	No Movement
+123,4	No Movement
+123,6	No Movement
+123,8	No Movement
+124	No Movement
+124,2	No Movement
+124,4	No Movement
+124,6	No Movement
+124,8	No Movement
+125	No Movement
+125,2	No Movement
+125,4	No Movement
+125,6	No Movement
+125,8	No Movement
+126	No Movement
+126,2	No Movement
+126,4	No Movement
+126,6	Free Locomotion
+126,8	Free Locomotion
+127	Free Locomotion
+127,2	Free Locomotion
+127,4	Free Locomotion
+127,6	Free Locomotion
+127,8	Free Locomotion
+128	Free Locomotion
+128,2	Free Locomotion
+128,4	Free Locomotion
+128,6	Free Locomotion
+128,8	Free Locomotion
+129	Free Locomotion
+129,2	Free Locomotion
+129,4	Free Locomotion
+129,6	Free Locomotion
+129,8	Free Locomotion
+130	Free Locomotion
+130,2	Free Locomotion
+130,4	Free Locomotion
+130,6	Free Locomotion
+130,8	Free Locomotion
+131	Free Locomotion
+131,2	Free Locomotion
+131,4	Free Locomotion
+131,6	Free Locomotion
+131,8	Free Locomotion
+132	Free Locomotion
+132,2	Free Locomotion
+132,4	Free Locomotion
+132,6	No Movement
+132,8	No Movement
+133	No Movement
+133,2	No Movement
+133,4	No Movement
+133,6	No Movement
+133,8	No Movement
+134	No Movement
+134,2	Attack
+134,4	Attack
+134,6	Attack
+134,8	Attack
+135	Attack
+135,2	Attack
+135,4	Attack
+135,6	Attack
+135,8	Attack
+136	Attack
+136,2	Attack
+136,4	Attack
+136,6	Attack
+136,8	Attack
+137	Attack
+137,2	Close Investigation
+137,4	Close Investigation
+137,6	Close Investigation
+137,8	Close Investigation
+138	Close Investigation
+138,2	Close Investigation
+138,4	Close Investigation
+138,6	Close Investigation
+138,8	Close Investigation
+139	Close Investigation
+139,2	Close Investigation
+139,4	Close Investigation
+139,6	Close Investigation
+139,8	Close Investigation
+140	Close Investigation
+140,2	Close Investigation
+140,4	Close Investigation
+140,6	Close Investigation
+140,8	Close Investigation
+141	Close Investigation
+141,2	Close Investigation
+141,4	Close Investigation
+141,6	Close Investigation
+141,8	Close Investigation
+142	Close Investigation
+142,2	Close Investigation
+142,4	Close Investigation
+142,6	Close Investigation
+142,8	Close Investigation
+143	Close Investigation
+143,2	AG Sniff
+143,4	AG Sniff
+143,6	AG Sniff
+143,8	AG Sniff
+144	AG Sniff
+144,2	AG Sniff
+144,4	AG Sniff
+144,6	AG Sniff
+144,8	AG Sniff
+145	AG Sniff
+145,2	AG Sniff
+145,4	AG Sniff
+145,6	AG Sniff
+145,8	AG Sniff
+146	AG Sniff
+146,2	AG Sniff
+146,4	AG Sniff
+146,6	AG Sniff
+146,8	AG Sniff
+147	AG Sniff
+147,2	AG Sniff
+147,4	AG Sniff
+147,6	AG Sniff
+147,8	AG Sniff
+148	AG Sniff
+148,2	No Movement
+148,4	No Movement
+148,6	No Movement
+148,8	No Movement
+149	No Movement
+149,2	No Movement
+149,4	No Movement
+149,6	No Movement
+149,8	No Movement
+150	No Movement
+150,2	No Movement
+150,4	No Movement
+150,6	No Movement
+150,8	No Movement
+151	No Movement
+151,2	No Movement
+151,4	No Movement
+151,6	No Movement
+151,8	No Movement
+152	No Movement
+152,2	Free Locomotion
+152,4	Free Locomotion
+152,6	Free Locomotion
+152,8	Free Locomotion
+153	Free Locomotion
+153,2	Free Locomotion
+153,4	Free Locomotion
+153,6	Free Locomotion
+153,8	Free Locomotion
+154	Free Locomotion
+154,2	Free Locomotion
+154,4	Free Locomotion
+154,6	Free Locomotion
+154,8	Free Locomotion
+155	Free Locomotion
+155,2	Free Locomotion
+155,4	Free Locomotion
+155,6	Free Locomotion
+155,8	Free Locomotion
+156	Free Locomotion
+156,2	Free Locomotion
+156,4	Free Locomotion
+156,6	Free Locomotion
+156,8	Free Locomotion
+157	Free Locomotion
+157,2	Free Locomotion
+157,4	Free Locomotion
+157,6	Free Locomotion
+157,8	Free Locomotion
+158	Free Locomotion
+158,2	No Movement
+158,4	No Movement
+158,6	No Movement
+158,8	No Movement
+159	No Movement
+159,2	No Movement
+159,4	No Movement
+159,6	No Movement
+159,8	Attack
+160	Attack
+160,2	Attack
+160,4	Attack
+160,6	Attack
+160,8	Attack
+161	Attack
+161,2	Attack
+161,4	Attack
+161,6	Attack
+161,8	Attack
+162	Attack
+162,2	Attack
+162,4	Attack
+162,6	Attack
+162,8	Close Investigation
+163	Close Investigation
+163,2	Close Investigation
+163,4	Close Investigation
+163,6	Close Investigation
+163,8	Close Investigation
+164	Close Investigation
+164,2	Close Investigation
+164,4	Close Investigation
+164,6	Close Investigation
+164,8	Close Investigation
+165	Close Investigation
+165,2	Close Investigation
+165,4	Close Investigation
+165,6	Close Investigation
+165,8	Close Investigation
+166	Close Investigation
+166,2	Close Investigation
+166,4	Close Investigation
+166,6	Close Investigation
+166,8	Close Investigation
+167	Close Investigation
+167,2	Close Investigation
+167,4	Close Investigation
+167,6	Close Investigation
+167,8	Close Investigation
+168	Close Investigation
+168,2	Close Investigation
+168,4	Close Investigation
+168,6	Close Investigation
+168,8	AG Sniff
+169	AG Sniff
+169,2	AG Sniff
+169,4	AG Sniff
+169,6	AG Sniff
+169,8	AG Sniff
+170	AG Sniff
+170,2	AG Sniff
+170,4	AG Sniff
+170,6	AG Sniff
+170,8	AG Sniff
+171	AG Sniff
+171,2	AG Sniff
+171,4	AG Sniff
+171,6	AG Sniff
+171,8	AG Sniff
+172	AG Sniff
+172,2	AG Sniff
+172,4	AG Sniff
+172,6	AG Sniff
+172,8	AG Sniff
+173	AG Sniff
+173,2	AG Sniff
+173,4	AG Sniff
+173,6	AG Sniff
+173,8	No Movement
+174	No Movement
+174,2	No Movement
+174,4	No Movement
+174,6	No Movement
+174,8	No Movement
+175	No Movement
+175,2	No Movement
+175,4	No Movement
+175,6	No Movement
+175,8	No Movement
+176	No Movement
+176,2	No Movement
+176,4	No Movement
+176,6	No Movement
+176,8	No Movement
+177	No Movement
+177,2	No Movement
+177,4	No Movement
+177,6	No Movement
+177,8	Free Locomotion
+178	Free Locomotion
+178,2	Free Locomotion
+178,4	Free Locomotion
+178,6	Free Locomotion
+178,8	Free Locomotion
+179	Free Locomotion
+179,2	Free Locomotion
+179,4	Free Locomotion
+179,6	Free Locomotion
+179,8	Free Locomotion
+180	Free Locomotion
+180,2	Free Locomotion
+180,4	Free Locomotion
+180,6	Free Locomotion
+180,8	Free Locomotion
+181	Free Locomotion
+181,2	Free Locomotion
+181,4	Free Locomotion
+181,6	Free Locomotion
+181,8	Free Locomotion
+182	Free Locomotion
+182,2	Free Locomotion
+182,4	Free Locomotion
+182,6	Free Locomotion
+182,8	Free Locomotion
+183	Free Locomotion
+183,2	Free Locomotion
+183,4	Free Locomotion
+183,6	Free Locomotion
+183,8	No Movement
+184	No Movement
+184,2	No Movement
+184,4	No Movement
+184,6	No Movement
+184,8	No Movement
+185	No Movement
+185,2	No Movement
+185,4	Attack
+185,6	Attack
+185,8	Attack
+186	Attack
+186,2	Attack
+186,4	Attack
+186,6	Attack
+186,8	Attack
+187	Attack
+187,2	Attack
+187,4	Attack
+187,6	Attack
+187,8	Attack
+188	Attack
+188,2	Attack
+188,4	Close Investigation
+188,6	Close Investigation
+188,8	Close Investigation
+189	Close Investigation
+189,2	Close Investigation
+189,4	Close Investigation
+189,6	Close Investigation
+189,8	Close Investigation
+190	Close Investigation
+190,2	Close Investigation
+190,4	Close Investigation
+190,6	Close Investigation
+190,8	Close Investigation
+191	Close Investigation
+191,2	Close Investigation
+191,4	Close Investigation
+191,6	Close Investigation
+191,8	Close Investigation
+192	Close Investigation
+192,2	Close Investigation
+192,4	Close Investigation
+192,6	Close Investigation
+192,8	Close Investigation
+193	Close Investigation
+193,2	Close Investigation
+193,4	Close Investigation
+193,6	Close Investigation
+193,8	Close Investigation
+194	Close Investigation
+194,2	Close Investigation
+194,4	AG Sniff
+194,6	AG Sniff
+194,8	AG Sniff
+195	AG Sniff
+195,2	AG Sniff
+195,4	AG Sniff
+195,6	AG Sniff
+195,8	AG Sniff
+196	AG Sniff
+196,2	AG Sniff
+196,4	AG Sniff
+196,6	AG Sniff
+196,8	AG Sniff
+197	AG Sniff
+197,2	AG Sniff
+197,4	AG Sniff
+197,6	AG Sniff
+197,8	AG Sniff
+198	AG Sniff
+198,2	AG Sniff
+198,4	AG Sniff
+198,6	AG Sniff
+198,8	AG Sniff
+199	AG Sniff
+199,2	AG Sniff
+199,4	No Movement
+199,6	No Movement
+199,8	No Movement
+200	No Movement
+200,2	No Movement
+200,4	No Movement
+200,6	No Movement
+200,8	No Movement
+201	No Movement
+201,2	No Movement
+201,4	No Movement
+201,6	No Movement
+201,8	No Movement
+202	No Movement
+202,2	No Movement
+202,4	No Movement
+202,6	No Movement
+202,8	No Movement
+203	No Movement
+203,2	No Movement
+203,4	Free Locomotion
+203,6	Free Locomotion
+203,8	Free Locomotion
+204	Free Locomotion
+204,2	Free Locomotion
+204,4	Free Locomotion
+204,6	Free Locomotion
+204,8	Free Locomotion
+205	Free Locomotion
+205,2	Free Locomotion
+205,4	Free Locomotion
+205,6	Free Locomotion
+205,8	Free Locomotion
+206	Free Locomotion
+206,2	Free Locomotion
+206,4	Free Locomotion
+206,6	Free Locomotion
+206,8	Free Locomotion
+207	Free Locomotion
+207,2	Free Locomotion
+207,4	Free Locomotion
+207,6	Free Locomotion
+207,8	Free Locomotion
+208	Free Locomotion
+208,2	Free Locomotion
+208,4	Free Locomotion
+208,6	Free Locomotion
+208,8	Free Locomotion
+209	Free Locomotion
+209,2	Free Locomotion
+209,4	No Movement
+209,6	No Movement
+209,8	No Movement
+210	No Movement
+210,2	No Movement
+210,4	No Movement
+210,6	No Movement
+210,8	No Movement
+211	Attack
+211,2	Attack
+211,4	Attack
+211,6	Attack
+211,8	Attack
+212	Attack
+212,2	Attack
+212,4	Attack
+212,6	Attack
+212,8	Attack
+213	Attack
+213,2	Attack
+213,4	Attack
+213,6	Attack
+213,8	Attack
+214	Close Investigation
+214,2	Close Investigation
+214,4	Close Investigation
+214,6	Close Investigation
+214,8	Close Investigation
+215	Close Investigation
+215,2	Close Investigation
+215,4	Close Investigation
+215,6	Close Investigation
+215,8	Close Investigation
+216	Close Investigation
+216,2	Close Investigation
+216,4	Close Investigation
+216,6	Close Investigation
+216,8	Close Investigation
+217	Close Investigation
+217,2	Close Investigation
+217,4	Close Investigation
+217,6	Close Investigation
+217,8	Close Investigation
+218	Close Investigation
+218,2	Close Investigation
+218,4	Close Investigation
+218,6	Close Investigation
+218,8	Close Investigation
+219	Close Investigation
+219,2	Close Investigation
+219,4	Close Investigation
+219,6	Close Investigation
+219,8	Close Investigation
+220	AG Sniff
+220,2	AG Sniff
+220,4	AG Sniff
+220,6	AG Sniff
+220,8	AG Sniff
+221	AG Sniff
+221,2	AG Sniff
+221,4	AG Sniff
+221,6	AG Sniff
+221,8	AG Sniff
+222	AG Sniff
+222,2	AG Sniff
+222,4	AG Sniff
+222,6	AG Sniff
+222,8	AG Sniff
+223	AG Sniff
+223,2	AG Sniff
+223,4	AG Sniff
+223,6	AG Sniff
+223,8	AG Sniff
+224	AG Sniff
+224,2	AG Sniff
+224,4	AG Sniff
+224,6	AG Sniff
+224,8	AG Sniff
+225	No Movement
+225,2	No Movement
+225,4	No Movement
+225,6	No Movement
+225,8	No Movement
+226	No Movement
+226,2	No Movement
+226,4	No Movement
+226,6	No Movement
+226,8	No Movement
+227	No Movement
+227,2	No Movement
+227,4	No Movement
+227,6	No Movement
+227,8	No Movement
+228	No Movement
+228,2	No Movement
+228,4	No Movement
+228,6	No Movement
+228,8	No Movement
+229	Free Locomotion
+229,2	Free Locomotion
+229,4	Free Locomotion
+229,6	Free Locomotion
+229,8	Free Locomotion
+230	Free Locomotion
+230,2	Free Locomotion
+230,4	Free Locomotion
+230,6	Free Locomotion
+230,8	Free Locomotion
+231	Free Locomotion
+231,2	Free Locomotion
+231,4	Free Locomotion
+231,6	Free Locomotion
+231,8	Free Locomotion
+232	Free Locomotion
+232,2	Free Locomotion
+232,4	Free Locomotion
+232,6	Free Locomotion
+232,8	Free Locomotion
+233	Free Locomotion
+233,2	Free Locomotion
+233,4	Free Locomotion
+233,6	Free Locomotion
+233,8	Free Locomotion
+234	Free Locomotion
+234,2	Free Locomotion
+234,4	Free Locomotion
+234,6	Free Locomotion
+234,8	Free Locomotion
+235	No Movement
+235,2	No Movement
+235,4	No Movement
+235,6	No Movement
+235,8	No Movement
+236	No Movement
+236,2	No Movement
+236,4	No Movement
+236,6	Attack
+236,8	Attack
+237	Attack
+237,2	Attack
+237,4	Attack
+237,6	Attack
+237,8	Attack
+238	Attack
+238,2	Attack
+238,4	Attack
+238,6	Attack
+238,8	Attack
+239	Attack
+239,2	Attack
+239,4	Attack
+239,6	Close Investigation
+239,8	Close Investigation
+240	Close Investigation
+240,2	Close Investigation
+240,4	Close Investigation
+240,6	Close Investigation
+240,8	Close Investigation
+241	Close Investigation
+241,2	Close Investigation
+241,4	Close Investigation
+241,6	Close Investigation
+241,8	Close Investigation
+242	Close Investigation
+242,2	Close Investigation
+242,4	Close Investigation
+242,6	Close Investigation
+242,8	Close Investigation
+243	Close Investigation
+243,2	Close Investigation
+243,4	Close Investigation
+243,6	Close Investigation
+243,8	Close Investigation
+244	Close Investigation
+244,2	Close Investigation
+244,4	Close Investigation
+244,6	Close Investigation
+244,8	Close Investigation
+245	Close Investigation
+245,2	Close Investigation
+245,4	Close Investigation
+245,6	AG Sniff
+245,8	AG Sniff
+246	AG Sniff
+246,2	AG Sniff
+246,4	AG Sniff
+246,6	AG Sniff
+246,8	AG Sniff
+247	AG Sniff
+247,2	AG Sniff
+247,4	AG Sniff
+247,6	AG Sniff
+247,8	AG Sniff
+248	AG Sniff
+248,2	AG Sniff
+248,4	AG Sniff
+248,6	AG Sniff
+248,8	AG Sniff
+249	AG Sniff
+249,2	AG Sniff
+249,4	AG Sniff
+249,6	AG Sniff
+249,8	AG Sniff
+250	AG Sniff
+250,2	AG Sniff
+250,4	AG Sniff
+250,6	No Movement
+250,8	No Movement
+251	No Movement
+251,2	No Movement
+251,4	No Movement
+251,6	No Movement
+251,8	No Movement
+252	No Movement
+252,2	No Movement
+252,4	No Movement
+252,6	No Movement
+252,8	No Movement
+253	No Movement
+253,2	No Movement
+253,4	No Movement
+253,6	No Movement
+253,8	No Movement
+254	No Movement
+254,2	No Movement
+254,4	No Movement
+254,6	Free Locomotion
+254,8	Free Locomotion
+255	Free Locomotion
+255,2	Free Locomotion
+255,4	Free Locomotion
+255,6	Free Locomotion
+255,8	Free Locomotion
+256	Free Locomotion
+256,2	Free Locomotion
+256,4	Free Locomotion
+256,6	Free Locomotion
+256,8	Free Locomotion
+257	Free Locomotion
+257,2	Free Locomotion
+257,4	Free Locomotion
+257,6	Free Locomotion
+257,8	Free Locomotion
+258	Free Locomotion
+258,2	Free Locomotion
+258,4	Free Locomotion
+258,6	Free Locomotion
+258,8	Free Locomotion
+259	Free Locomotion
+259,2	Free Locomotion
+259,4	Free Locomotion
+259,6	Free Locomotion
+259,8	Free Locomotion
+260	Free Locomotion
+260,2	Free Locomotion
+260,4	Free Locomotion
+260,6	No Movement
+260,8	No Movement
+261	No Movement
+261,2	No Movement
+261,4	No Movement
+261,6	No Movement
+261,8	No Movement
+262	No Movement
+262,2	Attack
+262,4	Attack
+262,6	Attack
+262,8	Attack
+263	Attack
+263,2	Attack
+263,4	Attack
+263,6	Attack
+263,8	Attack
+264	Attack
+264,2	Attack
+264,4	Attack
+264,6	Attack
+264,8	Attack
+265	Attack
+265,2	Close Investigation
+265,4	Close Investigation
+265,6	Close Investigation
+265,8	Close Investigation
+266	Close Investigation
+266,2	Close Investigation
+266,4	Close Investigation
+266,6	Close Investigation
+266,8	Close Investigation
+267	Close Investigation
+267,2	Close Investigation
+267,4	Close Investigation
+267,6	Close Investigation
+267,8	Close Investigation
+268	Close Investigation
+268,2	Close Investigation
+268,4	Close Investigation
+268,6	Close Investigation
+268,8	Close Investigation
+269	Close Investigation
+269,2	Close Investigation
+269,4	Close Investigation
+269,6	Close Investigation
+269,8	Close Investigation
+270	Close Investigation
+270,2	Close Investigation
+270,4	Close Investigation
+270,6	Close Investigation
+270,8	Close Investigation
+271	Close Investigation
+271,2	AG Sniff
+271,4	AG Sniff
+271,6	AG Sniff
+271,8	AG Sniff
+272	AG Sniff
+272,2	AG Sniff
+272,4	AG Sniff
+272,6	AG Sniff
+272,8	AG Sniff
+273	AG Sniff
+273,2	AG Sniff
+273,4	AG Sniff
+273,6	AG Sniff
+273,8	AG Sniff
+274	AG Sniff
+274,2	AG Sniff
+274,4	AG Sniff
+274,6	AG Sniff
+274,8	AG Sniff
+275	AG Sniff
+275,2	AG Sniff
+275,4	AG Sniff
+275,6	AG Sniff
+275,8	AG Sniff
+276	AG Sniff
+276,2	No Movement
+276,4	No Movement
+276,6	No Movement
+276,8	No Movement
+277	No Movement
+277,2	No Movement
+277,4	No Movement
+277,6	No Movement
+277,8	No Movement
+278	No Movement
+278,2	No Movement
+278,4	No Movement
+278,6	No Movement
+278,8	No Movement
+279	No Movement
+279,2	No Movement
+279,4	No Movement
+279,6	No Movement
+279,8	No Movement
+280	No Movement
+280,2	Free Locomotion
+280,4	Free Locomotion
+280,6	Free Locomotion
+280,8	Free Locomotion
+281	Free Locomotion
+281,2	Free Locomotion
+281,4	Free Locomotion
+281,6	Free Locomotion
+281,8	Free Locomotion
+282	Free Locomotion
+282,2	Free Locomotion
+282,4	Free Locomotion
+282,6	Free Locomotion
+282,8	Free Locomotion
+283	Free Locomotion
+283,2	Free Locomotion
+283,4	Free Locomotion
+283,6	Free Locomotion
+283,8	Free Locomotion
+284	Free Locomotion
+284,2	Free Locomotion
+284,4	Free Locomotion
+284,6	Free Locomotion
+284,8	Free Locomotion
+285	Free Locomotion
+285,2	Free Locomotion
+285,4	Free Locomotion
+285,6	Free Locomotion
+285,8	Free Locomotion
+286	Free Locomotion
+286,2	No Movement
+286,4	No Movement
+286,6	No Movement
+286,8	No Movement
+287	No Movement
+287,2	No Movement
+287,4	No Movement
+287,6	No Movement
+287,8	Attack
+288	Attack
+288,2	Attack
+288,4	Attack
+288,6	Attack
+288,8	Attack
+289	Attack
+289,2	Attack
+289,4	Attack
+289,6	Attack
+289,8	Attack
+290	Attack
+290,2	Attack
+290,4	Attack
+290,6	Attack
+290,8	Close Investigation
+291	Close Investigation
+291,2	Close Investigation
+291,4	Close Investigation
+291,6	Close Investigation
+291,8	Close Investigation
+292	Close Investigation
+292,2	Close Investigation
+292,4	Close Investigation
+292,6	Close Investigation
+292,8	Close Investigation
+293	Close Investigation
+293,2	Close Investigation
+293,4	Close Investigation
+293,6	Close Investigation
+293,8	Close Investigation
+294	Close Investigation
+294,2	Close Investigation
+294,4	Close Investigation
+294,6	Close Investigation
+294,8	Close Investigation
+295	Close Investigation
+295,2	Close Investigation
+295,4	Close Investigation
+295,6	Close Investigation
+295,8	Close Investigation
+296	Close Investigation
+296,2	Close Investigation
+296,4	Close Investigation
+296,6	Close Investigation
+296,8	AG Sniff
+297	AG Sniff
+297,2	AG Sniff
+297,4	AG Sniff
+297,6	AG Sniff
+297,8	AG Sniff
+298	AG Sniff
+298,2	AG Sniff
+298,4	AG Sniff
+298,6	AG Sniff
+298,8	AG Sniff
+299	AG Sniff
+299,2	AG Sniff
+299,4	AG Sniff
+299,6	AG Sniff
+299,8	AG Sniff
+300	AG Sniff
+300,2	AG Sniff
+300,4	AG Sniff
+300,6	AG Sniff
+300,8	AG Sniff
+301	AG Sniff
+301,2	AG Sniff
+301,4	AG Sniff
+301,6	AG Sniff
+301,8	No Movement
+302	No Movement
+302,2	No Movement
+302,4	No Movement
+302,6	No Movement
+302,8	No Movement
+303	No Movement
+303,2	No Movement
+303,4	No Movement
+303,6	No Movement
+303,8	No Movement
+304	No Movement
+304,2	No Movement
+304,4	No Movement
+304,6	No Movement
+304,8	No Movement
+305	No Movement
+305,2	No Movement
+305,4	No Movement
+305,6	No Movement
+305,8	Free Locomotion
+306	Free Locomotion
+306,2	Free Locomotion
+306,4	Free Locomotion
+306,6	Free Locomotion
+306,8	Free Locomotion
+307	Free Locomotion
+307,2	Free Locomotion
+307,4	Free Locomotion
+307,6	Free Locomotion
+307,8	Free Locomotion
+308	Free Locomotion
+308,2	Free Locomotion
+308,4	Free Locomotion
+308,6	Free Locomotion
+308,8	Free Locomotion
+309	Free Locomotion
+309,2	Free Locomotion
+309,4	Free Locomotion
+309,6	Free Locomotion
+309,8	Free Locomotion
+310	Free Locomotion
+310,2	Free Locomotion
+310,4	Free Locomotion
+310,6	Free Locomotion
+310,8	Free Locomotion
+311	Free Locomotion
+311,2	Free Locomotion
+311,4	Free Locomotion
+311,6	Free Locomotion
+311,8	No Movement
+312	No Movement
+312,2	No Movement
+312,4	No Movement
+312,6	No Movement
+312,8	No Movement
+313	No Movement
+313,2	No Movement
+313,4	Attack
+313,6	Attack
+313,8	Attack
+314	Attack
+314,2	Attack
+314,4	Attack
+314,6	Attack
+314,8	Attack
+315	Attack
+315,2	Attack
+315,4	Attack
+315,6	Attack
+315,8	Attack
+316	Attack
+316,2	Attack
+316,4	Close Investigation
+316,6	Close Investigation
+316,8	Close Investigation
+317	Close Investigation
+317,2	Close Investigation
+317,4	Close Investigation
+317,6	Close Investigation
+317,8	Close Investigation
+318	Close Investigation
+318,2	Close Investigation
+318,4	Close Investigation
+318,6	Close Investigation
+318,8	Close Investigation
+319	Close Investigation
+319,2	Close Investigation
+319,4	Close Investigation
+319,6	Close Investigation
+319,8	Close Investigation
+320	Close Investigation
+320,2	Close Investigation
+320,4	Close Investigation
+320,6	Close Investigation
+320,8	Close Investigation
+321	Close Investigation
+321,2	Close Investigation
+321,4	Close Investigation
+321,6	Close Investigation
+321,8	Close Investigation
+322	Close Investigation
+322,2	Close Investigation
+322,4	AG Sniff
+322,6	AG Sniff
+322,8	AG Sniff
+323	AG Sniff
+323,2	AG Sniff
+323,4	AG Sniff
+323,6	AG Sniff
+323,8	AG Sniff
+324	AG Sniff
+324,2	AG Sniff
+324,4	AG Sniff
+324,6	AG Sniff
+324,8	AG Sniff
+325	AG Sniff
+325,2	AG Sniff
+325,4	AG Sniff
+325,6	AG Sniff
+325,8	AG Sniff
+326	AG Sniff
+326,2	AG Sniff
+326,4	AG Sniff
+326,6	AG Sniff
+326,8	AG Sniff
+327	AG Sniff
+327,2	AG Sniff
+327,4	No Movement
+327,6	No Movement
+327,8	No Movement
+328	No Movement
+328,2	No Movement
+328,4	No Movement
+328,6	No Movement
+328,8	No Movement
+329	No Movement
+329,2	No Movement
+329,4	No Movement
+329,6	No Movement
+329,8	No Movement
+330	No Movement
+330,2	No Movement
+330,4	No Movement
+330,6	No Movement
+330,8	No Movement
+331	No Movement
+331,2	No Movement
+331,4	Free Locomotion
+331,6	Free Locomotion
+331,8	Free Locomotion
+332	Free Locomotion
+332,2	Free Locomotion
+332,4	Free Locomotion
+332,6	Free Locomotion
+332,8	Free Locomotion
+333	Free Locomotion
+333,2	Free Locomotion
+333,4	Free Locomotion
+333,6	Free Locomotion
+333,8	Free Locomotion
+334	Free Locomotion
+334,2	Free Locomotion
+334,4	Free Locomotion
+334,6	Free Locomotion
+334,8	Free Locomotion
+335	Free Locomotion
+335,2	Free Locomotion
+335,4	Free Locomotion
+335,6	Free Locomotion
+335,8	Free Locomotion
+336	Free Locomotion
+336,2	Free Locomotion
+336,4	Free Locomotion
+336,6	Free Locomotion
+336,8	Free Locomotion
+337	Free Locomotion
+337,2	Free Locomotion
+337,4	No Movement
+337,6	No Movement
+337,8	No Movement
+338	No Movement
+338,2	No Movement
+338,4	No Movement
+338,6	No Movement
+338,8	No Movement
+339	Attack
+339,2	Attack
+339,4	Attack
+339,6	Attack
+339,8	Attack
+340	Attack
+340,2	Attack
+340,4	Attack
+340,6	Attack
+340,8	Attack
+341	Attack
+341,2	Attack
+341,4	Attack
+341,6	Attack
+341,8	Attack
+342	Close Investigation
+342,2	Close Investigation
+342,4	Close Investigation
+342,6	Close Investigation
+342,8	Close Investigation
+343	Close Investigation
+343,2	Close Investigation
+343,4	Close Investigation
+343,6	Close Investigation
+343,8	Close Investigation
+344	Close Investigation
+344,2	Close Investigation
+344,4	Close Investigation
+344,6	Close Investigation
+344,8	Close Investigation
+345	Close Investigation
+345,2	Close Investigation
+345,4	Close Investigation
+345,6	Close Investigation
+345,8	Close Investigation
+346	Close Investigation
+346,2	Close Investigation
+346,4	Close Investigation
+346,6	Close Investigation
+346,8	Close Investigation
+347	Close Investigation
+347,2	Close Investigation
+347,4	Close Investigation
+347,6	Close Investigation
+347,8	Close Investigation
+348	AG Sniff
+348,2	AG Sniff
+348,4	AG Sniff
+348,6	AG Sniff
+348,8	AG Sniff
+349	AG Sniff
+349,2	AG Sniff
+349,4	AG Sniff
+349,6	AG Sniff
+349,8	AG Sniff
+350	AG Sniff
+350,2	AG Sniff
+350,4	AG Sniff
+350,6	AG Sniff
+350,8	AG Sniff
+351	AG Sniff
+351,2	AG Sniff
+351,4	AG Sniff
+351,6	AG Sniff
+351,8	AG Sniff
+352	AG Sniff
+352,2	AG Sniff
+352,4	AG Sniff
+352,6	AG Sniff
+352,8	AG Sniff
+353	No Movement
+353,2	No Movement
+353,4	No Movement
+353,6	No Movement
+353,8	No Movement
+354	No Movement
+354,2	No Movement
+354,4	No Movement
+354,6	No Movement
+354,8	No Movement
+355	No Movement
+355,2	No Movement
+355,4	No Movement
+355,6	No Movement
+355,8	No Movement
+356	No Movement
+356,2	No Movement
+356,4	No Movement
+356,6	No Movement
+356,8	No Movement
+357	Free Locomotion
+357,2	Free Locomotion
+357,4	Free Locomotion
+357,6	Free Locomotion
+357,8	Free Locomotion
+358	Free Locomotion
+358,2	Free Locomotion
+358,4	Free Locomotion
+358,6	Free Locomotion
+358,8	Free Locomotion
+359	Free Locomotion
+359,2	Free Locomotion
+359,4	Free Locomotion
+359,6	Free Locomotion
+359,8	Free Locomotion
+360	Free Locomotion
+360,2	Free Locomotion
+360,4	Free Locomotion
+360,6	Free Locomotion
+360,8	Free Locomotion
+361	Free Locomotion
+361,2	Free Locomotion
+361,4	Free Locomotion
+361,6	Free Locomotion
+361,8	Free Locomotion
+362	Free Locomotion
+362,2	Free Locomotion
+362,4	Free Locomotion
+362,6	Free Locomotion
+362,8	Free Locomotion
+363	No Movement
+363,2	No Movement
+363,4	No Movement
+363,6	No Movement
+363,8	No Movement
+364	No Movement
+364,2	No Movement
+364,4	No Movement
+364,6	Attack
+364,8	Attack
+365	Attack
+365,2	Attack
+365,4	Attack
+365,6	Attack
+365,8	Attack
+366	Attack
+366,2	Attack
+366,4	Attack
+366,6	Attack
+366,8	Attack
+367	Attack
+367,2	Attack
+367,4	Attack
+367,6	Close Investigation
+367,8	Close Investigation
+368	Close Investigation
+368,2	Close Investigation
+368,4	Close Investigation
+368,6	Close Investigation
+368,8	Close Investigation
+369	Close Investigation
+369,2	Close Investigation
+369,4	Close Investigation
+369,6	Close Investigation
+369,8	Close Investigation
+370	Close Investigation
+370,2	Close Investigation
+370,4	Close Investigation
+370,6	Close Investigation
+370,8	Close Investigation
+371	Close Investigation
+371,2	Close Investigation
+371,4	Close Investigation
+371,6	Close Investigation
+371,8	Close Investigation
+372	Close Investigation
+372,2	Close Investigation
+372,4	Close Investigation
+372,6	Close Investigation
+372,8	Close Investigation
+373	Close Investigation
+373,2	Close Investigation
+373,4	Close Investigation
+373,6	AG Sniff
+373,8	AG Sniff
+374	AG Sniff
+374,2	AG Sniff
+374,4	AG Sniff
+374,6	AG Sniff
+374,8	AG Sniff
+375	AG Sniff
+375,2	AG Sniff
+375,4	AG Sniff
+375,6	AG Sniff
+375,8	AG Sniff
+376	AG Sniff
+376,2	AG Sniff
+376,4	AG Sniff
+376,6	AG Sniff
+376,8	AG Sniff
+377	AG Sniff
+377,2	AG Sniff
+377,4	AG Sniff
+377,6	AG Sniff
+377,8	AG Sniff
+378	AG Sniff
+378,2	AG Sniff
+378,4	AG Sniff
+378,6	No Movement
+378,8	No Movement
+379	No Movement
+379,2	No Movement
+379,4	No Movement
+379,6	No Movement
+379,8	No Movement
+380	No Movement
+380,2	No Movement
+380,4	No Movement
+380,6	No Movement
+380,8	No Movement
+381	No Movement
+381,2	No Movement
+381,4	No Movement
+381,6	No Movement
+381,8	No Movement
+382	No Movement
+382,2	No Movement
+382,4	No Movement
+382,6	Free Locomotion
+382,8	Free Locomotion
+383	Free Locomotion
+383,2	Free Locomotion
+383,4	Free Locomotion
+383,6	Free Locomotion
+383,8	Free Locomotion
+384	Free Locomotion
+384,2	Free Locomotion
+384,4	Free Locomotion
+384,6	Free Locomotion
+384,8	Free Locomotion
+385	Free Locomotion
+385,2	Free Locomotion
+385,4	Free Locomotion
+385,6	Free Locomotion
+385,8	Free Locomotion
+386	Free Locomotion
+386,2	Free Locomotion
+386,4	Free Locomotion
+386,6	Free Locomotion
+386,8	Free Locomotion
+387	Free Locomotion
+387,2	Free Locomotion
+387,4	Free Locomotion
+387,6	Free Locomotion
+387,8	Free Locomotion
+388	Free Locomotion
+388,2	Free Locomotion
+388,4	Free Locomotion
+388,6	No Movement
+388,8	No Movement
+389	No Movement
+389,2	No Movement
+389,4	No Movement
+389,6	No Movement
+389,8	No Movement
+390	No Movement
+390,2	Attack
+390,4	Attack
+390,6	Attack
+390,8	Attack
+391	Attack
+391,2	Attack
+391,4	Attack
+391,6	Attack
+391,8	Attack
+392	Attack
+392,2	Attack
+392,4	Attack
+392,6	Attack
+392,8	Attack
+393	Attack
+393,2	Close Investigation
+393,4	Close Investigation
+393,6	Close Investigation
+393,8	Close Investigation
+394	Close Investigation
+394,2	Close Investigation
+394,4	Close Investigation
+394,6	Close Investigation
+394,8	Close Investigation
+395	Close Investigation
+395,2	Close Investigation
+395,4	Close Investigation
+395,6	Close Investigation
+395,8	Close Investigation
+396	Close Investigation
+396,2	Close Investigation
+396,4	Close Investigation
+396,6	Close Investigation
+396,8	Close Investigation
+397	Close Investigation
+397,2	Close Investigation
+397,4	Close Investigation
+397,6	Close Investigation
+397,8	Close Investigation
+398	Close Investigation
+398,2	Close Investigation
+398,4	Close Investigation
+398,6	Close Investigation
+398,8	Close Investigation
+399	Close Investigation
+399,2	AG Sniff
+399,4	AG Sniff
+399,6	AG Sniff
+399,8	AG Sniff
+400	AG Sniff
+400,2	AG Sniff
+400,4	AG Sniff
+400,6	AG Sniff
+400,8	AG Sniff
+401	AG Sniff
+401,2	AG Sniff
+401,4	AG Sniff
+401,6	AG Sniff
+401,8	AG Sniff
+402	AG Sniff
+402,2	AG Sniff
+402,4	AG Sniff
+402,6	AG Sniff
+402,8	AG Sniff
+403	AG Sniff
+403,2	AG Sniff
+403,4	AG Sniff
+403,6	AG Sniff
+403,8	AG Sniff
+404	AG Sniff
+404,2	No Movement
+404,4	No Movement
+404,6	No Movement
+404,8	No Movement
+405	No Movement
+405,2	No Movement
+405,4	No Movement
+405,6	No Movement
+405,8	No Movement
+406	No Movement
+406,2	No Movement
+406,4	No Movement
+406,6	No Movement
+406,8	No Movement
+407	No Movement
+407,2	No Movement
+407,4	No Movement
+407,6	No Movement
+407,8	No Movement
+408	No Movement
+408,2	Free Locomotion
+408,4	Free Locomotion
+408,6	Free Locomotion
+408,8	Free Locomotion
+409	Free Locomotion
+409,2	Free Locomotion
+409,4	Free Locomotion
+409,6	Free Locomotion
+409,8	Free Locomotion
+410	Free Locomotion
+410,2	Free Locomotion
+410,4	Free Locomotion
+410,6	Free Locomotion
+410,8	Free Locomotion
+411	Free Locomotion
+411,2	Free Locomotion
+411,4	Free Locomotion
+411,6	Free Locomotion
+411,8	Free Locomotion
+412	Free Locomotion
+412,2	Free Locomotion
+412,4	Free Locomotion
+412,6	Free Locomotion
+412,8	Free Locomotion
+413	Free Locomotion
+413,2	Free Locomotion
+413,4	Free Locomotion
+413,6	Free Locomotion
+413,8	Free Locomotion
+414	Free Locomotion
+414,2	No Movement
+414,4	No Movement
+414,6	No Movement
+414,8	No Movement
+415	No Movement
+415,2	No Movement
+415,4	No Movement
+415,6	No Movement
+415,8	Attack
+416	Attack
+416,2	Attack
+416,4	Attack
+416,6	Attack
+416,8	Attack
+417	Attack
+417,2	Attack
+417,4	Attack
+417,6	Attack
+417,8	Attack
+418	Attack
+418,2	Attack
+418,4	Attack
+418,6	Attack
+418,8	Close Investigation
+419	Close Investigation
+419,2	Close Investigation
+419,4	Close Investigation
+419,6	Close Investigation
+419,8	Close Investigation
+420	Close Investigation
+420,2	Close Investigation
+420,4	Close Investigation
+420,6	Close Investigation
+420,8	Close Investigation
+421	Close Investigation
+421,2	Close Investigation
+421,4	Close Investigation
+421,6	Close Investigation
+421,8	Close Investigation
+422	Close Investigation
+422,2	Close Investigation
+422,4	Close Investigation
+422,6	Close Investigation
+422,8	Close Investigation
+423	Close Investigation
+423,2	Close Investigation
+423,4	Close Investigation
+423,6	Close Investigation
+423,8	Close Investigation
+424	Close Investigation
+424,2	Close Investigation
+424,4	Close Investigation
+424,6	Close Investigation
+424,8	AG Sniff
+425	AG Sniff
+425,2	AG Sniff
+425,4	AG Sniff
+425,6	AG Sniff
+425,8	AG Sniff
+426	AG Sniff
+426,2	AG Sniff
+426,4	AG Sniff
+426,6	AG Sniff
+426,8	AG Sniff
+427	AG Sniff
+427,2	AG Sniff
+427,4	AG Sniff
+427,6	AG Sniff
+427,8	AG Sniff
+428	AG Sniff
+428,2	AG Sniff
+428,4	AG Sniff
+428,6	AG Sniff
+428,8	AG Sniff
+429	AG Sniff
+429,2	AG Sniff
+429,4	AG Sniff
+429,6	AG Sniff
+429,8	No Movement
+430	No Movement
+430,2	No Movement
+430,4	No Movement
+430,6	No Movement
+430,8	No Movement
+431	No Movement
+431,2	No Movement
+431,4	No Movement
+431,6	No Movement
+431,8	No Movement
+432	No Movement
+432,2	No Movement
+432,4	No Movement
+432,6	No Movement
+432,8	No Movement
+433	No Movement
+433,2	No Movement
+433,4	No Movement
+433,6	No Movement
+433,8	Free Locomotion
+434	Free Locomotion
+434,2	Free Locomotion
+434,4	Free Locomotion
+434,6	Free Locomotion
+434,8	Free Locomotion
+435	Free Locomotion
+435,2	Free Locomotion
+435,4	Free Locomotion
+435,6	Free Locomotion
+435,8	Free Locomotion
+436	Free Locomotion
+436,2	Free Locomotion
+436,4	Free Locomotion
+436,6	Free Locomotion
+436,8	Free Locomotion
+437	Free Locomotion
+437,2	Free Locomotion
+437,4	Free Locomotion
+437,6	Free Locomotion
+437,8	Free Locomotion
+438	Free Locomotion
+438,2	Free Locomotion
+438,4	Free Locomotion
+438,6	Free Locomotion
+438,8	Free Locomotion
+439	Free Locomotion
+439,2	Free Locomotion
+439,4	Free Locomotion
+439,6	Free Locomotion
+439,8	No Movement
+440	No Movement
+440,2	No Movement
+440,4	No Movement
+440,6	No Movement
+440,8	No Movement
+441	No Movement
+441,2	No Movement
+441,4	Attack
+441,6	Attack
+441,8	Attack
+442	Attack
+442,2	Attack
+442,4	Attack
+442,6	Attack
+442,8	Attack
+443	Attack
+443,2	Attack
+443,4	Attack
+443,6	Attack
+443,8	Attack
+444	Attack
+444,2	Attack
+444,4	Close Investigation
+444,6	Close Investigation
+444,8	Close Investigation
+445	Close Investigation
+445,2	Close Investigation
+445,4	Close Investigation
+445,6	Close Investigation
+445,8	Close Investigation
+446	Close Investigation
+446,2	Close Investigation
+446,4	Close Investigation
+446,6	Close Investigation
+446,8	Close Investigation
+447	Close Investigation
+447,2	Close Investigation
+447,4	Close Investigation
+447,6	Close Investigation
+447,8	Close Investigation
+448	Close Investigation
+448,2	Close Investigation
+448,4	Close Investigation
+448,6	Close Investigation
+448,8	Close Investigation
+449	Close Investigation
+449,2	Close Investigation
+449,4	Close Investigation
+449,6	Close Investigation
+449,8	Close Investigation
+450	Close Investigation
+450,2	Close Investigation
+450,4	AG Sniff
+450,6	AG Sniff
+450,8	AG Sniff
+451	AG Sniff
+451,2	AG Sniff
+451,4	AG Sniff
+451,6	AG Sniff
+451,8	AG Sniff
+452	AG Sniff
+452,2	AG Sniff
+452,4	AG Sniff
+452,6	AG Sniff
+452,8	AG Sniff
+453	AG Sniff
+453,2	AG Sniff
+453,4	AG Sniff
+453,6	AG Sniff
+453,8	AG Sniff
+454	AG Sniff
+454,2	AG Sniff
+454,4	AG Sniff
+454,6	AG Sniff
+454,8	AG Sniff
+455	AG Sniff
+455,2	AG Sniff
+455,4	No Movement
+455,6	No Movement
+455,8	No Movement
+456	No Movement
+456,2	No Movement
+456,4	No Movement
+456,6	No Movement
+456,8	No Movement
+457	No Movement
+457,2	No Movement
+457,4	No Movement
+457,6	No Movement
+457,8	No Movement
+458	No Movement
+458,2	No Movement
+458,4	No Movement
+458,6	No Movement
+458,8	No Movement
+459	No Movement
+459,2	No Movement
+459,4	Free Locomotion
+459,6	Free Locomotion
+459,8	Free Locomotion
+460	Free Locomotion
+460,2	Free Locomotion
+460,4	Free Locomotion
+460,6	Free Locomotion
+460,8	Free Locomotion
+461	Free Locomotion
+461,2	Free Locomotion
+461,4	Free Locomotion
+461,6	Free Locomotion
+461,8	Free Locomotion
+462	Free Locomotion
+462,2	Free Locomotion
+462,4	Free Locomotion
+462,6	Free Locomotion
+462,8	Free Locomotion
+463	Free Locomotion
+463,2	Free Locomotion
+463,4	Free Locomotion
+463,6	Free Locomotion
+463,8	Free Locomotion
+464	Free Locomotion
+464,2	Free Locomotion
+464,4	Free Locomotion
+464,6	Free Locomotion
+464,8	Free Locomotion
+465	Free Locomotion
+465,2	Free Locomotion
+465,4	No Movement
+465,6	No Movement
+465,8	No Movement
+466	No Movement
+466,2	No Movement
+466,4	No Movement
+466,6	No Movement
+466,8	No Movement
+467	Attack
+467,2	Attack
+467,4	Attack
+467,6	Attack
+467,8	Attack
+468	Attack
+468,2	Attack
+468,4	Attack
+468,6	Attack
+468,8	Attack
+469	Attack
+469,2	Attack
+469,4	Attack
+469,6	Attack
+469,8	Attack
+470	Close Investigation
+470,2	Close Investigation
+470,4	Close Investigation
+470,6	Close Investigation
+470,8	Close Investigation
+471	Close Investigation
+471,2	Close Investigation
+471,4	Close Investigation
+471,6	Close Investigation
+471,8	Close Investigation
+472	Close Investigation
+472,2	Close Investigation
+472,4	Close Investigation
+472,6	Close Investigation
+472,8	Close Investigation
+473	Close Investigation
+473,2	Close Investigation
+473,4	Close Investigation
+473,6	Close Investigation
+473,8	Close Investigation
+474	Close Investigation
+474,2	Close Investigation
+474,4	Close Investigation
+474,6	Close Investigation
+474,8	Close Investigation
+475	Close Investigation
+475,2	Close Investigation
+475,4	Close Investigation
+475,6	Close Investigation
+475,8	Close Investigation
+476	AG Sniff
+476,2	AG Sniff
+476,4	AG Sniff
+476,6	AG Sniff
+476,8	AG Sniff
+477	AG Sniff
+477,2	AG Sniff
+477,4	AG Sniff
+477,6	AG Sniff
+477,8	AG Sniff
+478	AG Sniff
+478,2	AG Sniff
+478,4	AG Sniff
+478,6	AG Sniff
+478,8	AG Sniff
+479	AG Sniff
+479,2	AG Sniff
+479,4	AG Sniff
+479,6	AG Sniff
+479,8	AG Sniff
+480	AG Sniff
+480,2	AG Sniff
+480,4	AG Sniff
+480,6	AG Sniff
+480,8	AG Sniff
+481	No Movement
+481,2	No Movement
+481,4	No Movement
+481,6	No Movement
+481,8	No Movement
+482	No Movement
+482,2	No Movement
+482,4	No Movement
+482,6	No Movement
+482,8	No Movement
+483	No Movement
+483,2	No Movement
+483,4	No Movement
+483,6	No Movement
+483,8	No Movement
+484	No Movement
+484,2	No Movement
+484,4	No Movement
+484,6	No Movement
+484,8	No Movement
+485	Free Locomotion
+485,2	Free Locomotion
+485,4	Free Locomotion
+485,6	Free Locomotion
+485,8	Free Locomotion
+486	Free Locomotion
+486,2	Free Locomotion
+486,4	Free Locomotion
+486,6	Free Locomotion
+486,8	Free Locomotion
+487	Free Locomotion
+487,2	Free Locomotion
+487,4	Free Locomotion
+487,6	Free Locomotion
+487,8	Free Locomotion
+488	Free Locomotion
+488,2	Free Locomotion
+488,4	Free Locomotion
+488,6	Free Locomotion
+488,8	Free Locomotion
+489	Free Locomotion
+489,2	Free Locomotion
+489,4	Free Locomotion
+489,6	Free Locomotion
+489,8	Free Locomotion
+490	Free Locomotion
+490,2	Free Locomotion
+490,4	Free Locomotion
+490,6	Free Locomotion
+490,8	Free Locomotion
+491	No Movement
+491,2	No Movement
+491,4	No Movement
+491,6	No Movement
+491,8	No Movement
+492	No Movement
+492,2	No Movement
+492,4	No Movement
+492,6	Attack
+492,8	Attack
+493	Attack
+493,2	Attack
+493,4	Attack
+493,6	Attack
+493,8	Attack
+494	Attack
+494,2	Attack
+494,4	Attack
+494,6	Attack
+494,8	Attack
+495	Attack
+495,2	Attack
+495,4	Attack
+495,6	Close Investigation
+495,8	Close Investigation
+496	Close Investigation
+496,2	Close Investigation
+496,4	Close Investigation
+496,6	Close Investigation
+496,8	Close Investigation
+497	Close Investigation
+497,2	Close Investigation
+497,4	Close Investigation
+497,6	Close Investigation
+497,8	Close Investigation
+498	Close Investigation
+498,2	Close Investigation
+498,4	Close Investigation
+498,6	Close Investigation
+498,8	Close Investigation
+499	Close Investigation
+499,2	Close Investigation
+499,4	Close Investigation
+499,6	Close Investigation
+499,8	Close Investigation
+500	Close Investigation
+500,2	Close Investigation
+500,4	Close Investigation
+500,6	Close Investigation
+500,8	Close Investigation
+501	Close Investigation
+501,2	Close Investigation
+501,4	Close Investigation
+501,6	AG Sniff
+501,8	AG Sniff
+502	AG Sniff
+502,2	AG Sniff
+502,4	AG Sniff
+502,6	AG Sniff
+502,8	AG Sniff
+503	AG Sniff
+503,2	AG Sniff
+503,4	AG Sniff
+503,6	AG Sniff
+503,8	AG Sniff
+504	AG Sniff
+504,2	AG Sniff
+504,4	AG Sniff
+504,6	AG Sniff
+504,8	AG Sniff
+505	AG Sniff
+505,2	AG Sniff
+505,4	AG Sniff
+505,6	AG Sniff
+505,8	AG Sniff
+506	AG Sniff
+506,2	AG Sniff
+506,4	AG Sniff
+506,6	No Movement
+506,8	No Movement
+507	No Movement
+507,2	No Movement
+507,4	No Movement
+507,6	No Movement
+507,8	No Movement
+508	No Movement
+508,2	No Movement
+508,4	No Movement
+508,6	No Movement
+508,8	No Movement
+509	No Movement
+509,2	No Movement
+509,4	No Movement
+509,6	No Movement
+509,8	No Movement
+510	No Movement
+510,2	No Movement
+510,4	No Movement
+510,6	Free Locomotion
+510,8	Free Locomotion
+511	Free Locomotion
+511,2	Free Locomotion
+511,4	Free Locomotion
+511,6	Free Locomotion
+511,8	Free Locomotion
+512	Free Locomotion
+512,2	Free Locomotion
+512,4	Free Locomotion
+512,6	Free Locomotion
+512,8	Free Locomotion
+513	Free Locomotion
+513,2	Free Locomotion
+513,4	Free Locomotion
+513,6	Free Locomotion
+513,8	Free Locomotion
+514	Free Locomotion
+514,2	Free Locomotion
+514,4	Free Locomotion
+514,6	Free Locomotion
+514,8	Free Locomotion
+515	Free Locomotion
+515,2	Free Locomotion
+515,4	Free Locomotion
+515,6	Free Locomotion
+515,8	Free Locomotion
+516	Free Locomotion
+516,2	Free Locomotion
+516,4	Free Locomotion
+516,6	No Movement
+516,8	No Movement
+517	No Movement
+517,2	No Movement
+517,4	No Movement
+517,6	No Movement
+517,8	No Movement
+518	No Movement
+518,2	Attack
+518,4	Attack
+518,6	Attack
+518,8	Attack
+519	Attack
+519,2	Attack
+519,4	Attack
+519,6	Attack
+519,8	Attack
+520	Attack
+520,2	Attack
+520,4	Attack
+520,6	Attack
+520,8	Attack
+521	Attack
+521,2	Close Investigation
+521,4	Close Investigation
+521,6	Close Investigation
+521,8	Close Investigation
+522	Close Investigation
+522,2	Close Investigation
+522,4	Close Investigation
+522,6	Close Investigation
+522,8	Close Investigation
+523	Close Investigation
+523,2	Close Investigation
+523,4	Close Investigation
+523,6	Close Investigation
+523,8	Close Investigation
+524	Close Investigation
+524,2	Close Investigation
+524,4	Close Investigation
+524,6	Close Investigation
+524,8	Close Investigation
+525	Close Investigation
+525,2	Close Investigation
+525,4	Close Investigation
+525,6	Close Investigation
+525,8	Close Investigation
+526	Close Investigation
+526,2	Close Investigation
+526,4	Close Investigation
+526,6	Close Investigation
+526,8	Close Investigation
+527	Close Investigation
+527,2	AG Sniff
+527,4	AG Sniff
+527,6	AG Sniff
+527,8	AG Sniff
+528	AG Sniff
+528,2	AG Sniff
+528,4	AG Sniff
+528,6	AG Sniff
+528,8	AG Sniff
+529	AG Sniff
+529,2	AG Sniff
+529,4	AG Sniff
+529,6	AG Sniff
+529,8	AG Sniff
+530	AG Sniff
+530,2	AG Sniff
+530,4	AG Sniff
+530,6	AG Sniff
+530,8	AG Sniff
+531	AG Sniff
+531,2	AG Sniff
+531,4	AG Sniff
+531,6	AG Sniff
+531,8	AG Sniff
+532	AG Sniff
+532,2	No Movement
+532,4	No Movement
+532,6	No Movement
+532,8	No Movement
+533	No Movement
+533,2	No Movement
+533,4	No Movement
+533,6	No Movement
+533,8	No Movement
+534	No Movement
+534,2	No Movement
+534,4	No Movement
+534,6	No Movement
+534,8	No Movement
+535	No Movement
+535,2	No Movement
+535,4	No Movement
+535,6	No Movement
+535,8	No Movement
+536	No Movement
+536,2	Free Locomotion
+536,4	Free Locomotion
+536,6	Free Locomotion
+536,8	Free Locomotion
+537	Free Locomotion
+537,2	Free Locomotion
+537,4	Free Locomotion
+537,6	Free Locomotion
+537,8	Free Locomotion
+538	Free Locomotion
+538,2	Free Locomotion
+538,4	Free Locomotion
+538,6	Free Locomotion
+538,8	Free Locomotion
+539	Free Locomotion
+539,2	Free Locomotion
+539,4	Free Locomotion
+539,6	Free Locomotion
+539,8	Free Locomotion
+540	Free Locomotion
+540,2	Free Locomotion
+540,4	Free Locomotion
+540,6	Free Locomotion
+540,8	Free Locomotion
+541	Free Locomotion
+541,2	Free Locomotion
+541,4	Free Locomotion
+541,6	Free Locomotion
+541,8	Free Locomotion
+542	Free Locomotion
+542,2	No Movement
+542,4	No Movement
+542,6	No Movement
+542,8	No Movement
+543	No Movement
+543,2	No Movement
+543,4	No Movement
+543,6	No Movement
+543,8	Attack
+544	Attack
+544,2	Attack
+544,4	Attack
+544,6	Attack
+544,8	Attack
+545	Attack
+545,2	Attack
+545,4	Attack
+545,6	Attack
+545,8	Attack
+546	Attack
+546,2	Attack
+546,4	Attack
+546,6	Attack
+546,8	Close Investigation
+547	Close Investigation
+547,2	Close Investigation
+547,4	Close Investigation
+547,6	Close Investigation
+547,8	Close Investigation
+548	Close Investigation
+548,2	Close Investigation
+548,4	Close Investigation
+548,6	Close Investigation
+548,8	Close Investigation
+549	Close Investigation
+549,2	Close Investigation
+549,4	Close Investigation
+549,6	Close Investigation
+549,8	Close Investigation
+550	Close Investigation
+550,2	Close Investigation
+550,4	Close Investigation
+550,6	Close Investigation
+550,8	Close Investigation
+551	Close Investigation
+551,2	Close Investigation
+551,4	Close Investigation
+551,6	Close Investigation
+551,8	Close Investigation
+552	Close Investigation
+552,2	Close Investigation
+552,4	Close Investigation
+552,6	Close Investigation
+552,8	AG Sniff
+553	AG Sniff
+553,2	AG Sniff
+553,4	AG Sniff
+553,6	AG Sniff
+553,8	AG Sniff
+554	AG Sniff
+554,2	AG Sniff
+554,4	AG Sniff
+554,6	AG Sniff
+554,8	AG Sniff
+555	AG Sniff
+555,2	AG Sniff
+555,4	AG Sniff
+555,6	AG Sniff
+555,8	AG Sniff
+556	AG Sniff
+556,2	AG Sniff
+556,4	AG Sniff
+556,6	AG Sniff
+556,8	AG Sniff
+557	AG Sniff
+557,2	AG Sniff
+557,4	AG Sniff
+557,6	AG Sniff
+557,8	No Movement
+558	No Movement
+558,2	No Movement
+558,4	No Movement
+558,6	No Movement
+558,8	No Movement
+559	No Movement
+559,2	No Movement
+559,4	No Movement
+559,6	No Movement
+559,8	No Movement
+560	No Movement
+560,2	No Movement
+560,4	No Movement
+560,6	No Movement
+560,8	No Movement
+561	No Movement
+561,2	No Movement
+561,4	No Movement
+561,6	No Movement
+561,8	Free Locomotion
+562	Free Locomotion
+562,2	Free Locomotion
+562,4	Free Locomotion
+562,6	Free Locomotion
+562,8	Free Locomotion
+563	Free Locomotion
+563,2	Free Locomotion
+563,4	Free Locomotion
+563,6	Free Locomotion
+563,8	Free Locomotion
+564	Free Locomotion
+564,2	Free Locomotion
+564,4	Free Locomotion
+564,6	Free Locomotion
+564,8	Free Locomotion
+565	Free Locomotion
+565,2	Free Locomotion
+565,4	Free Locomotion
+565,6	Free Locomotion
+565,8	Free Locomotion
+566	Free Locomotion
+566,2	Free Locomotion
+566,4	Free Locomotion
+566,6	Free Locomotion
+566,8	Free Locomotion
+567	Free Locomotion
+567,2	Free Locomotion
+567,4	Free Locomotion
+567,6	Free Locomotion
+567,8	No Movement
+568	No Movement
+568,2	No Movement
+568,4	No Movement
+568,6	No Movement
+568,8	No Movement
+569	No Movement
+569,2	No Movement
+569,4	Attack
+569,6	Attack
+569,8	Attack
+570	Attack
+570,2	Attack
+570,4	Attack
+570,6	Attack
+570,8	Attack
+571	Attack
+571,2	Attack
+571,4	Attack
+571,6	Attack
+571,8	Attack
+572	Attack
+572,2	Attack
+572,4	Close Investigation
+572,6	Close Investigation
+572,8	Close Investigation
+573	Close Investigation
+573,2	Close Investigation
+573,4	Close Investigation
+573,6	Close Investigation
+573,8	Close Investigation
+574	Close Investigation
+574,2	Close Investigation
+574,4	Close Investigation
+574,6	Close Investigation
+574,8	Close Investigation
+575	Close Investigation
+575,2	Close Investigation
+575,4	Close Investigation
+575,6	Close Investigation
+575,8	Close Investigation
+576	Close Investigation
+576,2	Close Investigation
+576,4	Close Investigation
+576,6	Close Investigation
+576,8	Close Investigation
+577	Close Investigation
+577,2	Close Investigation
+577,4	Close Investigation
+577,6	Close Investigation
+577,8	Close Investigation
+578	Close Investigation
+578,2	Close Investigation
+578,4	AG Sniff
+578,6	AG Sniff
+578,8	AG Sniff
+579	AG Sniff
+579,2	AG Sniff
+579,4	AG Sniff
+579,6	AG Sniff
+579,8	AG Sniff
+580	AG Sniff
+580,2	AG Sniff
+580,4	AG Sniff
+580,6	AG Sniff
+580,8	AG Sniff
+581	AG Sniff
+581,2	AG Sniff
+581,4	AG Sniff
+581,6	AG Sniff
+581,8	AG Sniff
+582	AG Sniff
+582,2	AG Sniff
+582,4	AG Sniff
+582,6	AG Sniff
+582,8	AG Sniff
+583	AG Sniff
+583,2	AG Sniff
+583,4	No Movement
+583,6	No Movement
+583,8	No Movement
+584	No Movement
+584,2	No Movement
+584,4	No Movement
+584,6	No Movement
+584,8	No Movement
+585	No Movement
+585,2	No Movement
+585,4	No Movement
+585,6	No Movement
+585,8	No Movement
+586	No Movement
+586,2	No Movement
+586,4	No Movement
+586,6	No Movement
+586,8	No Movement
+587	No Movement
+587,2	No Movement
+587,4	Free Locomotion
+587,6	Free Locomotion
+587,8	Free Locomotion
+588	Free Locomotion
+588,2	Free Locomotion
+588,4	Free Locomotion
+588,6	Free Locomotion
+588,8	Free Locomotion
+589	Free Locomotion
+589,2	Free Locomotion
+589,4	Free Locomotion
+589,6	Free Locomotion
+589,8	Free Locomotion
+590	Free Locomotion
+590,2	Free Locomotion
+590,4	Free Locomotion
+590,6	Free Locomotion
+590,8	Free Locomotion
+591	Free Locomotion
+591,2	Free Locomotion
+591,4	Free Locomotion
+591,6	Free Locomotion
+591,8	Free Locomotion
+592	Free Locomotion
+592,2	Free Locomotion
+592,4	Free Locomotion
+592,6	Free Locomotion
+592,8	Free Locomotion
+593	Free Locomotion
+593,2	Free Locomotion
+593,4	No Movement
+593,6	No Movement
+593,8	No Movement
+594	No Movement
+594,2	No Movement
+594,4	No Movement
+594,6	No Movement
+594,8	No Movement
+595	Attack
+595,2	Attack
+595,4	Attack
+595,6	Attack
+595,8	Attack
+596	Attack
+596,2	Attack
+596,4	Attack
+596,6	Attack
+596,8	Attack
+597	Attack
+597,2	Attack
+597,4	Attack
+597,6	Attack
+597,8	Attack
+598	Close Investigation
+598,2	Close Investigation
+598,4	Close Investigation
+598,6	Close Investigation
+598,8	Close Investigation
+599	Close Investigation
+599,2	Close Investigation
+599,4	Close Investigation
+599,6	Close Investigation
+599,8	Close Investigation
+600	Close Investigation
